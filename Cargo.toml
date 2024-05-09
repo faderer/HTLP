@@ -1,5 +1,5 @@
 [package]
-name = "HTLP"
+name = "htlp"
 version = "0.1.0"
 authors = ["GuyWberg <guywberg@gmail.com>"]
 edition = "2018"
@@ -7,12 +7,12 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [lib]
-name = "HTLP"
+name = "htlp"
 crate-type = ["cdylib"]
 path = "src/lib.rs"
 
 [[bin]]
-name = "HTLP"
+name = "htlp"
 path = "src/main.rs"
 
 [dependencies]
