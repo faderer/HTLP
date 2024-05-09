@@ -1,5 +1,5 @@
 [package]
-name = "HTLP"
+name = "htlp"
 version = "0.1.0"
 authors = ["GuyWberg <guywberg@gmail.com>"]
 edition = "2018"
@@ -8,8 +8,11 @@ edition = "2018"
 
 [lib]
 crate-type = ["cdylib"]
+path = "src/lib.rs"
 
-
+[[bin]]
+name = "htlp"
+path = "src/main.rs"
 
 [dependencies]
 modular = "1.0.0"
